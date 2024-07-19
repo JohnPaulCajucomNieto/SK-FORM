@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SK.CSS">
+    <title>SK MALLORCA</title>
+</head>
+<body>
+    <div class="main-header p-0">
+        <div class="logo">
+            <img src="sk.png">
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="left">
+            <div class="container">
+                <h3>Sangguniang Kabataan ng Mallorca</h3>
+            <p>Cash Assistance 2023</p>
+            </div>
+        </div>
+        <div id="right">
+            <div class="title">
+            </div>
+            <form method="post" action="insert.php">
+                <label for="Full Name">Fullname<label>
+                <br>
+                <input type="text" id="f_name" name="fname" placeholder="Firstname"> 
+                <input type="text" id="l_name" name="fname" placeholder="Lastname"> 
+                <br>
+                <label for="Email">Personal Email</label>
+                <br>
+                <input type="email" id="e_mail" name="email">
+                <br>
+                <label for="Birtday">Birtday</label>
+                <br>
+                <input type="date" id="_day" name="day" style="width: 165px;">
+                <br>
+                <label for="phone">Phone No.</label>
+                <br>
+                <input type="text" id="num" name="no" placeholder="+63">
+                <br>
+                <label for="phone">Complete Address</label>
+                <br>
+                <input type="text" id="address" name="add" placeholder="Ex:Purok 2, Brgy Mallorca" style="width: 600px;">
+                <br>
+                <label for="Course">Grade Level:</label>
+                <select id="_Course" name="Course">
+                    <option value="Choose">choose</option>
+                    <option value="">Grade 11</option>
+                    <option value="">Grade 12 </option>
+                    <option value="">1st Year College </option>
+                    <option value="BSAcT">2nd Year College</option>
+                    <option value="BPS">3rd Year College</option>
+                    <option value="BSP">4th Year College</option>
+                </select>
+                <br>
+                <button type="submit" value="submit">Submit</button>
+                <p>Thaks for submitting</p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
